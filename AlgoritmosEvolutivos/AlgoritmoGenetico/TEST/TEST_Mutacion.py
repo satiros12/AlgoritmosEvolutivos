@@ -1,4 +1,4 @@
-import Mutacion
+import AlgoritmoGenetico.Mutacion as Mutacion
 print "Mutacion"
 
 class TestMutacion:
