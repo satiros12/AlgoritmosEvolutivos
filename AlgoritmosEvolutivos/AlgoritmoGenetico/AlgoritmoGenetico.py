@@ -1,11 +1,11 @@
-import Mutation
+import Mutacion
 import Selection
 
 class AlgoritmoGenetico:
  def __init__(self, maxIndividuals = 10, maxNumGenerations = 100, maxQuality = 1.0):
   self.generacion = None
   self.numGeneration = 0
-  self.maxIndividuals = maxIndividuos
+  self.maxIndividuals = maxIndividuals
   self.maxNumGeneration = maxNumGenerations
   
  def sart(self):
