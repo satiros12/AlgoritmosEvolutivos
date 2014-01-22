@@ -7,12 +7,13 @@ class GeneticMutations:
              raise NameError("They must have the same long")
         else:
              result = ''
-             position = random.randint(0, len(first)) #They must have the same lenght
-             idex = 0
+             position = random.randint(0, len(first) - 1) #They must have the same lenght
+             index = 0
              while (index < len(first)):
-                 result = result + first[index]
                  if(index >= position):
                     result = result + second[index]
+                 else:                 
+                    result = result + first[index]
                  index = index + 1
              return result
              
@@ -24,5 +25,5 @@ class GeneticMutations:
                 result = result + first[index]
                 if(index == position):
                     result = result + str((int(first[index]) + 1)  % 2)
-                index = index + 1
+                index = index + 1                
         return result
