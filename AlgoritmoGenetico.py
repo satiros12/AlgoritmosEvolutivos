@@ -1,5 +1,6 @@
 import Mutation
 import Selection
+
 class AlgoritmoGenetico:
  def __init__(self, maxIndividuals = 10, maxNumGenerations = 100, maxQuality = 1.0):
   self.generacion = None
@@ -9,8 +10,13 @@ class AlgoritmoGenetico:
   
  def sart(self):
     pass
+    
+ def __initialGeneration(self):
+    pass
+    
  def mutation(self):
      pass
+     
  def evaluation(self):
      pass
  
