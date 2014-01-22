@@ -1,8 +1,8 @@
-import AlgoritmoGenetico.Mutacion as Mutation
 print "Mutacion"
+import Mutacion #Hay que meterse en Project->Properties->PyDev-PythonPath y agregar el path de Mutacion
 
 class TestMutacion:
-    mutacion = Mutation.GeneticMutations()
+    mutacion = Mutacion.GeneticMutations()
     
     #print "Se inicializa"
     def prueba0(self):
@@ -13,3 +13,6 @@ class TestMutacion:
         print self.mutacion.crossingOnePart(first,second)
         print self.mutacion.crossingOnePart(first,second)
         print self.mutacion.crossingOnePart(first,second)
+        
+t = TestMutacion()
+t.prueba0()
