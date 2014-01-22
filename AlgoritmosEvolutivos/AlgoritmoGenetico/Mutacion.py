@@ -20,7 +20,7 @@ class GeneticMutations:
     def bitMutation(self,  first):
         result = ''
         position = random.randint(0, len(first)) 
-        idex = 0
+        index = 0
         while (index < len(first)):
                 result = result + first[index]
                 if(index == position):
