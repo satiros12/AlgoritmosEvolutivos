@@ -1,8 +1,8 @@
-import AlgoritmoGenetico.Mutacion as Mutacion
+import AlgoritmoGenetico.Mutacion as Mutation
 print "Mutacion"
 
 class TestMutacion:
-    mutacion = Mutacion.GeneticMutations()
+    mutacion = Mutation.GeneticMutations()
     
     #print "Se inicializa"
     def prueba0(self):
